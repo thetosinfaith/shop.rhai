@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+  }
+  
+  .navLink {
+    list-style-type: none;
+    display: flex;
+    gap: 80px; 
+  }
+  
+  .navLink li {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+  }
+
+  .navLink a{
+    text-decoration: none;
+    color: #0D0D0D;
+  }
+  
+  .logo {
+
+  }
+  
+  .navIcons {
+    display: flex;
+    gap: 50px; 
+    list-style-type: none; 
+  }
+  
+  .navIcons li {
+  }
+  
+  .navIcons img {
+    width: 30px; 
+    height: 30px;
+  
+  }
+  
