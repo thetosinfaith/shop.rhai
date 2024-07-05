@@ -3,6 +3,9 @@ import Logo from '../../assets/logo.png';
 import userIcon from '../../assets/user-regular-24.png';
 import cartIcon from '../../assets/cart-regular-24.png';
 import searchIcon from '../../assets/search-regular-24.png';
+import menuIcon from '../../assets/menu-regular-24.png';
+
+
 import './NavBar.css';
 
 const NavBar = () => {
@@ -15,10 +18,11 @@ const NavBar = () => {
 
 
       <ul className='navLink'>
-        <li><a href="home">Shop</a></li>
-        <li><a href="new">New Arrivals</a></li>
-        <li><a href="best">Best Sellers</a></li>
-        <li><a href="best">Black Friday</a></li>
+        <li><a href="home">Home</a></li>
+        <li><a href="new">Products</a></li>
+        <li><a href="best">Categories</a></li>
+        <li><a href="best">Post</a></li>
+        <li><a href="best">Cart</a></li>
 
       </ul>
 
@@ -27,6 +31,8 @@ const NavBar = () => {
         <li><img src={userIcon} alt="User" /></li>
         <li><img src={searchIcon} alt="Search" /></li>
         <li><img src={cartIcon} alt="Cart" /></li>
+        <li><img src={menuIcon} alt="Cart" /></li>
+
       </ul>
     </header>
   );

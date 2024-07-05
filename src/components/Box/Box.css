@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-#container{
+#container {
     background-color: #F8FAFD;
     height: 80vh;
     width: 90%;
@@ -14,32 +14,55 @@
     background-position: center;
     margin: auto;
     gap: 20px;
-    cursor: pointer;
+}
 
-    .first-box{
-        background-image: url('/src/assets/50.png');
-        background-size: cover;
-        background-position: center;
-        transition: transform 0.5 ease;
-        }
+#container .first-box {
+    background-image: url('/src/assets/e5.JPG');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 125px;
+    transition: transform 1s;
+}
 
-        .second-box{
-            background-image: url('/src/assets/20.jpeg');
-            background-size: cover;
-            background-position: center;
-            transition: transform 0.5 ease;
-            
-            }
+#container .second-box {
+    background-image: url('/src/assets/i9.JPG');
+    background-size: cover;
+    background-position: center;
+    transition: transform 1s;
+}
 
-        .third-box{
-            background-image: url('/src/assets/40.jpeg');
-            background-size: cover;
-            background-position: center;
-        }
+#container .third-box {
+    background-image: url('/src/assets/b.JPG');
+    background-size: cover;
+    background-position: center;
+    transition: transform 1s;
+}
 
-        .fourth-box{
-            background-image: url('/src/assets/10.png');
-            background-size: cover;
-            background-position: center;
-        }
+#container .fourth-box {
+    background-image: url('/src/assets/g.JPG');
+    background-size: cover;
+    background-position: center;
+    transition: transform 1s;
+    border-top-right-radius: 125px;
+
+
+}
+
+#container .first-box:hover {
+    transform: scale(1.1);
+}
+
+#container .second-box:hover {
+    transform: scale(1.1);
+
+}
+
+#container .third-box:hover {
+    transform: scale(1.1);
+
+}
+
+#container .fourth-box:hover {
+    transform: scale(1.1);
+
 }

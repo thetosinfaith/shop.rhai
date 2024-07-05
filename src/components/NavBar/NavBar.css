@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 .navBar {
     display: flex;
@@ -15,10 +14,10 @@
   }
   
   .navLink li {
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Josefin Sans";    
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .navLink a{
@@ -37,11 +36,12 @@
   }
   
   .navIcons li {
+
   }
   
   .navIcons img {
     width: 30px; 
     height: 30px;
-  
   }
+  
   

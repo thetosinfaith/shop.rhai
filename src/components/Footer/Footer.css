@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    width: 90%;
+    background-color: rgb(188, 126, 126);
+    margin: auto;
+    padding: 70px 0 30px;
+    border-top-left-radius: 125px;
+    line-height: 20px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.column {
+    flex-basis: 25%;
+    padding: 10px;
+
+    .h3{
+        width: fit-content;
+        margin-bottom: 40px;
+        position: relative;
+
+        .email-id{
+            width: fit-content;
+            border-bottom: 1px solid #cccc;
+            margin: 20px 0px;
+
+        }
+    }
+}

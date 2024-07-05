@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.space {
+    margin: 100px auto 30px;
+    text-align: left;
+    height: 10vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.text-left {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: left;
+    flex: 1; /* Makes the container take available space */
+}
+
+.text-right {
+    height: 30px;
+    width: 10%;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: right;
+    flex: 1; /* Makes the container take available space */
+}
+
+.container {
+    height: 60vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+    transition: transform 0.5s ease;
+}
+
+#first-container .first-image { background-image: url('/src/assets/a.JPG'); }
+#first-container .second-image { background-image: url('/src/assets/b.JPG'); }
+#first-container .third-image { background-image: url('/src/assets/c.JPG'); }
+#first-container .fourth-image { background-image: url('/src/assets/d.JPG'); }
+
+#second-container .first-image { background-image: url('/src/assets/e.JPG'); }
+#second-container .second-image { background-image: url('/src/assets/f.JPG'); }
+#second-container .third-image { background-image: url('/src/assets/g.JPG'); }
+#second-container .fourth-image { background-image: url('/src/assets/h.JPG'); }
+
+#third-container .first { background-image: url('/src/assets/i.JPG'); }
+#third-container .second { background-image: url('/src/assets/j.JPG'); }
+#third-container .third { background-image: url('/src/assets/k.JPG'); }
+#third-container .fourth { background-image: url('/src/assets/l.JPG'); }
+
+#fourth-container .first { background-image: url('/src/assets/m.JPG'); }
+#fourth-container .second { background-image: url('/src/assets/n.JPG'); }
+#fourth-container .third { background-image: url('/src/assets/o.JPG'); }
+#fourth-container .fourth { background-image: url('/src/assets/p.JPG'); }
+
+#fifth-container .first { background-image: url('/src/assets/q.JPG'); }
+#fifth-container .second { background-image: url('/src/assets/r.JPG'); }
+#fifth-container .third { background-image: url('/src/assets/s.JPG'); }
+#fifth-container .fourth { background-image: url('/src/assets/t.JPG'); }
+
+#sixth-container .first { background-image: url('/src/assets/v.JPG'); }
+#sixth-container .second { background-image: url('/src/assets/w.JPG'); }
+#sixth-container .third { background-image: url('/src/assets/x.JPG'); }
+#sixth-container .fourth { background-image: url('/src/assets/y.JPG'); }
+
+#seventh-container .first { background-image: url('/src/assets/z.JPG'); }
+#seventh-container .second { background-image: url('/src/assets/a1.JPG'); }
+#seventh-container .third { background-image: url('/src/assets/b2.JPG'); }
+#seventh-container .fourth { background-image: url('/src/assets/c3.JPG'); }
+
+#eight-container .first { background-image: url('/src/assets/d4.JPG'); }
+#eight-container .second { background-image: url('/src/assets/e5.JPG'); }
+#eight-container .third { background-image: url('/src/assets/f6.JPG'); }
+#eight-container .fourth { background-image: url('/src/assets/g7.JPG'); }
+
+#nine-container .first { background-image: url('/src/assets/h8.JPG'); }
+#nine-container .second { background-image: url('/src/assets/i9.JPG'); }
+#nine-container .third { background-image: url('/src/assets/j10.JPG'); }
+#nine-container .fourth { background-image: url('/src/assets/k11.JPG'); }
+
+#ten-container .first { background-image: url('/src/assets/h8.JPG'); }
+#ten-container .second { background-image: url('/src/assets/i9.JPG'); }
+#ten-container .third { background-image: url('/src/assets/j10.JPG'); }
+#ten-container .fourth { background-image: url('/src/assets/k11.JPG'); }
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+.button img {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+  }
+  
+
