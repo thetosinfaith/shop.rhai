@@ -6,11 +6,11 @@ import searchIcon from '../../assets/search-regular-24.png';
 import menuIcon from '../../assets/menu-regular-24.png';
 
 
-import './NavBar.css';
+import './Header.css';
 
-const NavBar = () => {
+const Header = () => {
   return (
-    <header className='navBar'>
+    <div className='navBar'>
 
     <div className="logo">
         <img src={Logo} alt="Logo" />
@@ -34,8 +34,9 @@ const NavBar = () => {
         <li><img src={menuIcon} alt="Cart" /></li>
 
       </ul>
-    </header>
+    </div>
   );
 }
 
-export default NavBar;
+export default Header;
+ 
