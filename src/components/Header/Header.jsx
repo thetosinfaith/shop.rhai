@@ -1,4 +1,3 @@
-import React from 'react';
 import Logo from '../../assets/logo.png';
 import userIcon from '../../assets/user-regular-24.png';
 import cartIcon from '../../assets/cart-regular-24.png';
