@@ -1,15 +1,17 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 footer {
     width: 90%;
-    background-color: rgb(188, 126, 126);
+    max-width: 1500px;
     margin: auto;
-    padding: 70px 0 30px;
-    border-top-left-radius: 125px;
-    line-height: 20px;
+    padding: 50px 20px;
+    border-top-left-radius: 50px;
+    line-height: 1.9;
+    background-color: #F5F5F5;
 }
 
 .row {
@@ -18,22 +20,51 @@ footer {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
+    gap: 20px;
 }
+
+.column:first-child {
+    margin-top: -30px; 
+}
+
 
 .column {
-    flex-basis: 25%;
+    flex-basis: calc(25% - 20px);
     padding: 10px;
+}
 
-    .h3{
-        width: fit-content;
-        margin-bottom: 40px;
-        position: relative;
+.column h3 {
+    margin-bottom: 20px;
+    position: relative;
+}
 
-        .email-id{
-            width: fit-content;
-            border-bottom: 1px solid #cccc;
-            margin: 20px 0px;
+.column .email-id {
+    display: block;
+    border-bottom: 1px solid #cccccc;
+    margin: 20px 0;
+}
 
-        }
+.column img {
+    max-width: 250px;
+}
+
+@media screen and (max-width: 768px) {
+    .column {
+        flex-basis: calc(50% - 20px);
     }
 }
+
+@media screen and (max-width: 480px) {
+    .column {
+        flex-basis: 100%;
+    }
+
+    footer {
+        padding: 30px 10px;
+    }
+
+    .column img {
+        max-width: 250px;
+    }
+}
+

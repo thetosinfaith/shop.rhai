@@ -22,7 +22,6 @@ const Header = () => {
         <li><a href="best">Categories</a></li>
         <li><a href="best">Post</a></li>
         <li><a href="best">Cart</a></li>
-
       </ul>
 
 

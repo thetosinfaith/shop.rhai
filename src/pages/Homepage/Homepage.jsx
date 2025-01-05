@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../../components/Header/Header'
-import Box from '../../components/Box/Box'
+import HeroSection from '../../components/HeroSection/HeroSection'
 import Footer from '../../components/Footer/Footer'
 import ProductCategory from '../../components/ProductCategories/ProductCategory'
 
@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
     <Header/>
-    <Box/>
+    <HeroSection/>
     <ProductCategory/>
     <Footer/>
     </>
