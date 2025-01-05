@@ -1,47 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .navBar {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    background-color: #ffffff;
-  }
-  
-  .navLink {
-    list-style-type: none;
-    display: flex;
-    gap: 80px; 
-  }
-  
-  .navLink li {
-    font-family: "Josefin Sans";    
-    font-weight: 400;
-    font-style: normal;
-    font-size: 17px;
-  }
+    justify-content: space-between;
+    padding: 25px 100px;
+}
 
-  .navLink a{
+.navBarWrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navLink {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.navLink li {
+    font-size: 18px;
+}
+
+.navLink a {
     text-decoration: none;
-    color: #0D0D0D;
-  }
-  
-  .logo {
+    color: black;
+    transition: color 0.3s ease;
+}
 
-  }
-  
-  .navIcons {
+.navLink a:hover {
+    color: #d4edda;
+}
+
+.navIcons {
+    list-style: none;
     display: flex;
-    gap: 50px; 
-    list-style-type: none; 
-  }
-  
-  .navIcons li {
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
 
-  }
-  
-  .navIcons img {
-    width: 30px; 
-    height: 30px;
-  }
-  
-  
+.navIcons img {
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.navIcons img:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    .navBar {
+        padding: 10px 20px;
+    }
+
+    .navLink {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .navIcons {
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navBar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .navLink {
+        gap: 10px;
+    }
+
+    .navIcons img {
+        width: 20px;
+        height: 20px;
+    }
+}
